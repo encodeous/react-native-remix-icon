@@ -10,6 +10,10 @@ const RemixIcon = ({
 }) => {
   name = name.startsWith("ri-") ? name.substring(3) : name;
 
+  if (name.match(/^\d/)) {
+    name = "N" + name
+  }
+
   const iconComponentName = name
     .split("-")
     .map(s => s[0].toUpperCase() + s.substr(1))
