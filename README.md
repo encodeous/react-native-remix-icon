@@ -6,13 +6,13 @@ React native implementation for the popular [RemixIcon](https://remixicon.com) o
 ### Install
 Using yarn
 ```bash
-yarn add react-native-remix-icon
+yarn add encodeous/react-native-remix-icon
 ```
 
 Using npm
 
 ```bash
-npm install react-native-remix-icon
+npm install encodeous/react-native-remix-icon
 ```
 
 This library relies on the `react-native-svg` package to render svg icons. Install the `react-native-svg` package,
